@@ -1,48 +1,60 @@
-import { parse } from 'https://deno.land/std/flags/mod.ts';
+#!/usr/bin/env -S rlwrap deno run --allow-all
 
-const args = parse(Deno.args);
-const pattern = String(args._[0]);
-const exclude: string[] = args?.exclude?.split('') ?? [];
+import { filter, words } from './lib.ts';
+import { __dirname } from './shared.ts';
+import * as c from 'https://deno.land/std@0.152.0/fmt/colors.ts';
 
-interface Word {
-  text: string;
-  frequency: number;
+const exclude: string[] = [];
+let word = '';
+
+let exit = false;
+
+console.log('Cryptogram Solver');
+console.log('type "help" for a list of commands');
+
+function runIfEq(value: string | null, map: Map<string | null, () => void>) {
+  if (map.has(value)) {
+    const fn = map.get(value);
+    return fn ? fn() : null;
+  } else {
+    const fn = map.get(null);
+    return fn ? fn() : null;
+  }
 }
 
-const getWords = (path: string): Word[] => {
-  const text = Deno.readTextFileSync(path);
-  const lines = text
-    .split(/\r?\n/g)
-    .slice(1)
-    .map((line) => {
-      const values = line.split(',');
-      const formatted = { text: values[0], frequency: Number(values[1]) };
-      return formatted;
-    });
+while (!exit) {
+  console.clear();
+  console.log('Exclude:', c.yellow(exclude.join('')));
+  console.log('Word:', c.green(word));
 
-  return lines;
-};
+  console.log('');
 
-const filter = (words: Word[], pattern: string) =>
-  words
-    .filter(
-      (word) =>
-        new RegExp(pattern).test(word.text) &&
-        word.text.length === pattern.length &&
-        exclude.every(
-          (letter) =>
-            word.text.indexOf(letter) === -1 || pattern.indexOf(letter) !== -1
-        )
-    )
-    .map((word) => word.text);
+  word &&
+    console.log(
+      `Possible:\n${filter(words, exclude, word)
+        .map((word, i) => `${i + 1}: ${word}`)
+        .slice(0, 10)
+        .join('\n')}`
+    );
 
-const words = getWords(
-  `${new URL('.', import.meta.url).pathname}/unigram_freq.csv`
-);
+  console.log('');
 
-const results = filter(words, pattern)
-  .map((word, i) => `${i + 1}: ${word}`)
-  .reverse()
-  .join('\n');
+  const input = prompt('>');
+  const command = input?.split(' ')[0] ?? null;
+  const args = input?.split(' ').slice(1).join(' ');
 
-console.log(results);
+  const map = new Map<string, () => void>();
+  map.set('exit', () => Deno.exit());
+  map.set('exclude', () => {
+    if (args) {
+      exclude.push(...args.split(''));
+    }
+  });
+  map.set('word', () => {
+    if (args) {
+      word = args;
+    }
+  });
+
+  runIfEq(command, map);
+}
