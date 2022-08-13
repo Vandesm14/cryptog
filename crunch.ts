@@ -1,7 +1,7 @@
 import { filter, inc, words } from './lib.ts';
 import * as c from 'https://deno.land/std@0.152.0/fmt/colors.ts';
 
-export const getSmallestWord = (words: string[]) => {
+export const getBestSmallestWord = (words: string[]) => {
   const sorted = words.sort((a, b) => a.length - b.length);
   const smallest = sorted.filter((word) => word.length === sorted[0].length);
 
@@ -10,6 +10,7 @@ export const getSmallestWord = (words: string[]) => {
     words.forEach((word) =>
       word.split('').forEach((letter) => inc(letters, letter))
     );
+
     // find one with letters used most in the gram
     const rank = smallest.reduce(
       (best, word) => {
@@ -53,6 +54,25 @@ export const getMostFinishedWord = (
   return rank[0];
 };
 
+export const wordToPattern = (word: string, relations: Map<string, string>) => {
+  const letters: string[] = [];
+  return word
+    .split('')
+    .map((letter, i, arr) => {
+      if (arr.indexOf(letter) !== i && !letters.includes(letter)) {
+        letters.push(letter);
+      }
+      return letter;
+    })
+    .map((letter) => {
+      if (relations.has(letter)) return relations.get(letter);
+      if (letters.includes(letter)) return letters.indexOf(letter);
+      else return '.';
+    })
+    .join('');
+};
+
+//                  just because you dont understand it doesnt mean it isnt so
 const cryptogram = 'vqhw muobqhu xjq pjfw qfpuehwbfp dw pjuhfw nubf dw dhfw hj';
 const relations = new Map<string, string>();
 const translate = () =>
@@ -73,15 +93,12 @@ while (iterations > 0) {
   do {
     guess = target = '';
     if (guesses.length === 0) {
-      target = getSmallestWord(cryptogram.split(' '));
+      target = getBestSmallestWord(cryptogram.split(' '));
     } else {
       target = getMostFinishedWord(cryptogram.split(' '), relations);
     }
 
-    const pattern = target
-      .split('')
-      .map((letter) => relations.get(letter) ?? '.')
-      .join('');
+    const pattern = wordToPattern(target, relations);
 
     guess =
       filter(words, [...relations.keys()], pattern).find((word) =>
