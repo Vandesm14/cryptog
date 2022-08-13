@@ -1,0 +1,2104 @@
+/home/vandesm14/dev/cryptogram
+[1;1H[0Jvqh[32mf[39m muobqhu xjq pjf[32mf[39m qfpueh[32mf[39mbfp [32mo[39m[32mf[39m pjuhf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39mhf[32mf[39m hj
+
+{
+  target: "dw",
+  guess: "of",
+  pattern: "..",
+  failed: Map {},
+  iterations: 1000,
+  guesses: [ { target: "dw", guess: "of" } ]
+}
+[1;1H[0Jvq[32ml[39m[32mf[39m muobq[32ml[39mu xjq pj[32ma[39m[32mf[39m q[32ma[39mpue[32ml[39m[32mf[39mb[32ma[39mp [32mo[39m[32mf[39m pju[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olaf",
+  pattern: "o..f",
+  failed: Map {},
+  iterations: 1000,
+  guesses: [ { target: "dw", guess: "of" }, { target: "dhfw", guess: "olaf" } ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32ma[39m[32mf[39m [32me[39m[32ma[39mpue[32ml[39m[32mf[39mb[32ma[39mp [32mo[39m[32mf[39m pju[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "..lf",
+  failed: Map {},
+  iterations: 1000,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu x[32me[39m[32me[39m [32ml[39m[32me[39m[32ma[39m[32mf[39m [32me[39m[32ma[39m[32ml[39mue[32ml[39m[32mf[39mb[32ma[39m[32ml[39m [32mo[39m[32mf[39m [32ml[39m[32me[39mu[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39m[32me[39m
+
+{
+  target: "pjfw",
+  guess: "leaf",
+  pattern: "..af",
+  failed: Map {},
+  iterations: 1000,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "pjfw", guess: "leaf" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "le.laf" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map { "pjfw" => [ "leaf" ] },
+  iterations: 999,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map { "pjfw" => [ "leaf" ] },
+  iterations: 999,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32mn[39m[32me[39m [32mi[39m[32mn[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mi[39mue[32ml[39m[32ml[39mb[32mt[39m[32mi[39m [32mo[39m[32ml[39m [32mi[39m[32mn[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32mn[39m
+
+{
+  target: "pjfw",
+  guess: "intl",
+  pattern: "..tl",
+  failed: Map { "pjfw" => [ "leaf" ] },
+  iterations: 999,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "intl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "in.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map { "pjfw" => [ "leaf", "intl" ] },
+  iterations: 998,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map { "pjfw" => [ "leaf", "intl" ] },
+  iterations: 998,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32ma[39m[32me[39m [32mn[39m[32ma[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mn[39mue[32ml[39m[32ml[39mb[32mt[39m[32mn[39m [32mo[39m[32ml[39m [32mn[39m[32ma[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32ma[39m
+
+{
+  target: "pjfw",
+  guess: "natl",
+  pattern: "..tl",
+  failed: Map { "pjfw" => [ "leaf", "intl" ] },
+  iterations: 998,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "natl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "na.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl" ] },
+  iterations: 997,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl" ] },
+  iterations: 997,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32mr[39m[32me[39m [32me[39m[32mr[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32me[39mue[32ml[39m[32ml[39mb[32mt[39m[32me[39m [32mo[39m[32ml[39m [32me[39m[32mr[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32mr[39m
+
+{
+  target: "pjfw",
+  guess: "ertl",
+  pattern: "..tl",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl" ] },
+  iterations: 997,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "ertl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "er.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl" ] },
+  iterations: 996,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl" ] },
+  iterations: 996,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32mi[39m[32me[39m [32mt[39m[32mi[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mt[39mue[32ml[39m[32ml[39mb[32mt[39m[32mt[39m [32mo[39m[32ml[39m [32mt[39m[32mi[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32mi[39m
+
+{
+  target: "pjfw",
+  guess: "titl",
+  pattern: "..tl",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl" ] },
+  iterations: 996,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "titl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "ti.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl", "titl" ] },
+  iterations: 995,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl", "titl" ] },
+  iterations: 995,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32mp[39m[32me[39m [32mn[39m[32mp[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mn[39mue[32ml[39m[32ml[39mb[32mt[39m[32mn[39m [32mo[39m[32ml[39m [32mn[39m[32mp[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32mp[39m
+
+{
+  target: "pjfw",
+  guess: "nptl",
+  pattern: "..tl",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl", "titl" ] },
+  iterations: 995,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "nptl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "np.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl", "titl", "nptl" ] },
+  iterations: 994,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl", "titl", "nptl" ] },
+  iterations: 994,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32ms[39m[32me[39m [32mj[39m[32ms[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mj[39mue[32ml[39m[32ml[39mb[32mt[39m[32mj[39m [32mo[39m[32ml[39m [32mj[39m[32ms[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32ms[39m
+
+{
+  target: "pjfw",
+  guess: "jstl",
+  pattern: "..tl",
+  failed: Map { "pjfw" => [ "leaf", "intl", "natl", "ertl", "titl", "nptl" ] },
+  iterations: 994,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "jstl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "js.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl"
+      ]
+  },
+  iterations: 993,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl"
+      ]
+  },
+  iterations: 993,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32mt[39m[32me[39m [32mr[39m[32mt[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mr[39mue[32ml[39m[32ml[39mb[32mt[39m[32mr[39m [32mo[39m[32ml[39m [32mr[39m[32mt[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32mt[39m
+
+{
+  target: "pjfw",
+  guess: "rttl",
+  pattern: "..tl",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl"
+      ]
+  },
+  iterations: 993,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "rttl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "rt.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl"
+      ]
+  },
+  iterations: 992,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl"
+      ]
+  },
+  iterations: 992,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32mn[39m[32me[39m [32mc[39m[32mn[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mc[39mue[32ml[39m[32ml[39mb[32mt[39m[32mc[39m [32mo[39m[32ml[39m [32mc[39m[32mn[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32mn[39m
+
+{
+  target: "pjfw",
+  guess: "cntl",
+  pattern: "..tl",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl"
+      ]
+  },
+  iterations: 992,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "cntl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "cn.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl"
+      ]
+  },
+  iterations: 991,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl"
+      ]
+  },
+  iterations: 991,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32mo[39m[32me[39m [32mt[39m[32mo[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mt[39mue[32ml[39m[32ml[39mb[32mt[39m[32mt[39m [32mo[39m[32ml[39m [32mt[39m[32mo[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32mo[39m
+
+{
+  target: "pjfw",
+  guess: "totl",
+  pattern: "..tl",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl"
+      ]
+  },
+  iterations: 991,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "totl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "to.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl"
+      ]
+  },
+  iterations: 990,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mt[39m[32ml[39m [32me[39m[32mt[39mpue[32ml[39m[32ml[39mb[32mt[39mp [32mo[39m[32ml[39m pju[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "oltl",
+  pattern: "ol.l",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl"
+      ]
+  },
+  iterations: 990,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu x[32ml[39m[32me[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32me[39m[32mt[39m[32mo[39mue[32ml[39m[32ml[39mb[32mt[39m[32mo[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39mu[32ml[39m[32mt[39m[32ml[39m nub[32mt[39m [32mo[39m[32ml[39m [32mo[39m[32ml[39m[32mt[39m[32ml[39m [32ml[39m[32ml[39m
+
+{
+  target: "pjfw",
+  guess: "oltl",
+  pattern: "..tl",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl"
+      ]
+  },
+  iterations: 990,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "pjfw", guess: "oltl" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "ol.ltl" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32ml[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32ml[39m [32me[39mfpue[32ml[39m[32ml[39mbfp [32mo[39m[32ml[39m pju[32ml[39mf[32ml[39m nubf [32mo[39m[32ml[39m [32mo[39m[32ml[39mf[32ml[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "sell",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl"
+      ]
+  },
+  iterations: 989,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" }
+  ]
+}
+no guess { target: "dhfw", guess: "", pattern: "ol.l" }
+[1;1H[0Jvqh[32mf[39m muobqhu xjq pjf[32mf[39m qfpueh[32mf[39mbfp [32mo[39m[32mf[39m pjuhf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39mhf[32mf[39m hj
+
+{
+  target: "dw",
+  guess: "of",
+  pattern: "o.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 988,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" }
+  ]
+}
+[1;1H[0Jvq[32ml[39m[32mf[39m muobq[32ml[39mu xjq pj[32ma[39m[32mf[39m q[32ma[39mpue[32ml[39m[32mf[39mb[32ma[39mp [32mo[39m[32mf[39m pju[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olaf",
+  pattern: "o..f",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 988,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32ma[39m[32mf[39m [32me[39m[32ma[39mpue[32ml[39m[32mf[39mb[32ma[39mp [32mo[39m[32mf[39m pju[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "..lf",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 988,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu x[32mo[39m[32me[39m [32ml[39m[32mo[39m[32ma[39m[32mf[39m [32me[39m[32ma[39m[32ml[39mue[32ml[39m[32mf[39mb[32ma[39m[32ml[39m [32mo[39m[32mf[39m [32ml[39m[32mo[39mu[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39m[32mo[39m
+
+{
+  target: "pjfw",
+  guess: "loaf",
+  pattern: "..af",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 988,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "pjfw", guess: "loaf" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "lo.laf" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32mf[39m [32me[39mfpue[32ml[39m[32mf[39mbfp [32mo[39m[32mf[39m pju[32ml[39mf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39m[32ml[39mf[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl", "loaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 987,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32ma[39m[32mf[39m [32me[39m[32ma[39mpue[32ml[39m[32mf[39mb[32ma[39mp [32mo[39m[32mf[39m pju[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olaf",
+  pattern: "ol.f",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl", "loaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 987,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu x[32ms[39m[32me[39m [32mu[39m[32ms[39m[32ma[39m[32mf[39m [32me[39m[32ma[39m[32mu[39mue[32ml[39m[32mf[39mb[32ma[39m[32mu[39m [32mo[39m[32mf[39m [32mu[39m[32ms[39mu[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39m[32ms[39m
+
+{
+  target: "pjfw",
+  guess: "usaf",
+  pattern: "..af",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl",
+        "natl", "ertl",
+        "titl", "nptl",
+        "jstl", "rttl",
+        "cntl", "totl",
+        "oltl", "loaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 987,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "pjfw", guess: "usaf" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "us.laf" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32mf[39m [32me[39mfpue[32ml[39m[32mf[39mbfp [32mo[39m[32mf[39m pju[32ml[39mf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39m[32ml[39mf[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 986,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32ma[39m[32mf[39m [32me[39m[32ma[39mpue[32ml[39m[32mf[39mb[32ma[39mp [32mo[39m[32mf[39m pju[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olaf",
+  pattern: "ol.f",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 986,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu x[32mr[39m[32me[39m [32mg[39m[32mr[39m[32ma[39m[32mf[39m [32me[39m[32ma[39m[32mg[39mue[32ml[39m[32mf[39mb[32ma[39m[32mg[39m [32mo[39m[32mf[39m [32mg[39m[32mr[39mu[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39m[32mr[39m
+
+{
+  target: "pjfw",
+  guess: "graf",
+  pattern: "..af",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 986,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "pjfw", guess: "graf" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "gr.laf" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32mf[39m [32me[39mfpue[32ml[39m[32mf[39mbfp [32mo[39m[32mf[39m pju[32ml[39mf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39m[32ml[39mf[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 985,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32ma[39m[32mf[39m [32me[39m[32ma[39mpue[32ml[39m[32mf[39mb[32ma[39mp [32mo[39m[32mf[39m pju[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olaf",
+  pattern: "ol.f",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 985,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu x[32ml[39m[32me[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32me[39m[32ma[39m[32mo[39mue[32ml[39m[32mf[39mb[32ma[39m[32mo[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39mu[32ml[39m[32ma[39m[32mf[39m nub[32ma[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32ma[39m[32mf[39m [32ml[39m[32ml[39m
+
+{
+  target: "pjfw",
+  guess: "olaf",
+  pattern: "..af",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 985,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "pjfw", guess: "olaf" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "ol.laf" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32mf[39m [32me[39mfpue[32ml[39m[32mf[39mbfp [32mo[39m[32mf[39m pju[32ml[39mf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39m[32ml[39mf[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 984,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mo[39m[32mf[39m [32me[39m[32mo[39mpue[32ml[39m[32mf[39mb[32mo[39mp [32mo[39m[32mf[39m pju[32ml[39m[32mo[39m[32mf[39m nub[32mo[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32mo[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olof",
+  pattern: "ol.f",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 984,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu x[32mo[39m[32me[39m [32mr[39m[32mo[39m[32mo[39m[32mf[39m [32me[39m[32mo[39m[32mr[39mue[32ml[39m[32mf[39mb[32mo[39m[32mr[39m [32mo[39m[32mf[39m [32mr[39m[32mo[39mu[32ml[39m[32mo[39m[32mf[39m nub[32mo[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32mo[39m[32mf[39m [32ml[39m[32mo[39m
+
+{
+  target: "pjfw",
+  guess: "roof",
+  pattern: "..of",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 984,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m m[32me[39mob[32me[39m[32ml[39m[32me[39m x[32mo[39m[32me[39m [32mr[39m[32mo[39m[32mo[39m[32mf[39m [32me[39m[32mo[39m[32mr[39m[32me[39me[32ml[39m[32mf[39mb[32mo[39m[32mr[39m [32mo[39m[32mf[39m [32mr[39m[32mo[39m[32me[39m[32ml[39m[32mo[39m[32mf[39m n[32me[39mb[32mo[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32mo[39m[32mf[39m [32ml[39m[32mo[39m
+
+{
+  target: "pjuhfw",
+  guess: "roelof",
+  pattern: "ro.lof",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf"
+      ],
+    "vqhw" => [ "sell" ]
+  },
+  iterations: 984,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" },
+    { target: "pjuhfw", guess: "roelof" }
+  ]
+}
+no guess { target: "qfpuehwbfp", guess: "", pattern: "eore.lf.or" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32mf[39m [32me[39mfpue[32ml[39m[32mf[39mbfp [32mo[39m[32mf[39m pju[32ml[39mf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39m[32ml[39mf[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "se..",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf"
+      ],
+    "vqhw" => [ "sell" ],
+    "pjuhfw" => [ "roelof" ]
+  },
+  iterations: 983,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mo[39m[32mf[39m [32me[39m[32mo[39mpue[32ml[39m[32mf[39mb[32mo[39mp [32mo[39m[32mf[39m pju[32ml[39m[32mo[39m[32mf[39m nub[32mo[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32mo[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olof",
+  pattern: "ol.f",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf"
+      ],
+    "vqhw" => [ "sell" ],
+    "pjuhfw" => [ "roelof" ]
+  },
+  iterations: 983,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu x[32mo[39m[32me[39m [32mr[39m[32mo[39m[32mo[39m[32mf[39m [32me[39m[32mo[39m[32mr[39mue[32ml[39m[32mf[39mb[32mo[39m[32mr[39m [32mo[39m[32mf[39m [32mr[39m[32mo[39mu[32ml[39m[32mo[39m[32mf[39m nub[32mo[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32mo[39m[32mf[39m [32ml[39m[32mo[39m
+
+{
+  target: "pjfw",
+  guess: "roof",
+  pattern: "..of",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf"
+      ],
+    "vqhw" => [ "sell" ],
+    "pjuhfw" => [ "roelof" ]
+  },
+  iterations: 983,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" }
+  ]
+}
+no guess { target: "pjuhfw", guess: "", pattern: "ro.lof" }
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pjf[32mf[39m [32me[39mfpue[32ml[39m[32mf[39mbfp [32mo[39m[32mf[39m pju[32ml[39mf[32mf[39m nubf [32mo[39m[32mf[39m [32mo[39m[32ml[39mf[32mf[39m [32ml[39mj
+
+{
+  target: "vqhw",
+  guess: "self",
+  pattern: "sel.",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf",
+        "roof"
+      ],
+    "vqhw" => [ "sell" ],
+    "pjuhfw" => [ "roelof" ]
+  },
+  iterations: 982,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "vqhw", guess: "self" }
+  ]
+}
+[1;1H[0J[32ms[39m[32me[39m[32ml[39m[32mf[39m muob[32me[39m[32ml[39mu xj[32me[39m pj[32mo[39m[32mf[39m [32me[39m[32mo[39mpue[32ml[39m[32mf[39mb[32mo[39mp [32mo[39m[32mf[39m pju[32ml[39m[32mo[39m[32mf[39m nub[32mo[39m [32mo[39m[32mf[39m [32mo[39m[32ml[39m[32mo[39m[32mf[39m [32ml[39mj
+
+{
+  target: "dhfw",
+  guess: "olof",
+  pattern: "ol.f",
+  failed: Map {
+    "pjfw" => [
+        "leaf", "intl", "natl",
+        "ertl", "titl", "nptl",
+        "jstl", "rttl", "cntl",
+        "totl", "oltl", "loaf",
+        "usaf", "graf", "olaf",
+        "roof"
+      ],
+    "vqhw" => [ "sell" ],
+    "pjuhfw" => [ "roelof" ]
+  },
+  iterations: 982,
+  guesses: [
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "vqhw", guess: "sell" },
+    { target: "dhfw", guess: "oltl" },
+    { target: "dw", guess: "of" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olaf" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "pjfw", guess: "roof" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" },
+    { target: "vqhw", guess: "self" },
+    { target: "dhfw", guess: "olof" }
+  ]
+}

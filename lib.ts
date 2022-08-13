@@ -38,3 +38,8 @@ export const filter = (words: string[], exclude: string[], pattern: string) =>
   );
 
 export const words = getWords(`${__dirname}/unigram_freq.csv`);
+
+export const inc = <K>(map: Map<K, number>, key: K) => {
+  if (map.has(key)) map.set(key, map.get(key)! + 1);
+  else map.set(key, 1);
+};
