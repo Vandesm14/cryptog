@@ -23,7 +23,8 @@ export const filter = (words: string[], exclude: string[], pattern: string) =>
       word.length === pattern.length &&
       exclude.every(
         (letter) =>
-          word.indexOf(letter) === -1 || pattern.indexOf(letter) !== -1
+          word.indexOf(letter) === -1 ||
+          pattern.indexOf(letter) === word.indexOf(letter)
       ) &&
       Array.from(new Set(pattern.match(/[0-9]/g))).every((number) => {
         const indexes = getAllIndexes(pattern, number);
