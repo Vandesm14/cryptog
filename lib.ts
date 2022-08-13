@@ -10,17 +10,26 @@ const getWords = (path: string): string[] => {
   return lines;
 };
 
+const getAllIndexes = (string: string, char: string): number[] =>
+  string
+    .split('')
+    .map((letter, i) => (letter === char ? i : null))
+    .filter((el) => el !== null) as number[];
+
 export const filter = (words: string[], exclude: string[], pattern: string) =>
-  words
-    .filter(
-      (word) =>
-        new RegExp(pattern).test(word) &&
-        word.length === pattern.length &&
-        exclude.every(
-          (letter) =>
-            word.indexOf(letter) === -1 || pattern.indexOf(letter) !== -1
-        )
-    )
-    .map((word) => word);
+  words.filter(
+    (word) =>
+      new RegExp(pattern.replace(/[0-9]/g, '.')).test(word) &&
+      word.length === pattern.length &&
+      exclude.every(
+        (letter) =>
+          word.indexOf(letter) === -1 || pattern.indexOf(letter) !== -1
+      ) &&
+      Array.from(new Set(pattern.match(/[0-9]/g))).every((number) => {
+        const indexes = getAllIndexes(pattern, number);
+        const letters = new Set(indexes.map((index) => word[index]));
+        return letters.size === 1;
+      })
+  );
 
 export const words = getWords(`${__dirname}/unigram_freq.csv`);
