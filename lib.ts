@@ -43,3 +43,26 @@ export const inc = <K>(map: Map<K, number>, key: K) => {
   if (map.has(key)) map.set(key, map.get(key)! + 1);
   else map.set(key, 1);
 };
+
+export const scramble = (sentence: string) => {
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz'.toUpperCase().split('');
+  const letters = alphabet.slice();
+  const relations = new Map<string, string>();
+  alphabet.forEach((from) => {
+    if (letters.length > 0) {
+      const to = Math.floor(Math.random() * letters.length);
+      relations.set(from, letters[to]);
+
+      letters.pop();
+    }
+  });
+  console.log(relations);
+  return sentence
+    .split('')
+    .map((letter) =>
+      /[a-zA-Z]/g.test(letter) && relations.has(letter.toUpperCase())
+        ? relations.get(letter.toUpperCase())!
+        : letter
+    )
+    .join('');
+};
